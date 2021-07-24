@@ -1,0 +1,56 @@
+<html>
+  <head>
+     <title>First Html Project!</title>
+
+
+<head>
+<body>
+<script>
+// When I click About me
+function myFunction() {
+  document.getElementById("Jonathan").innerHTML= "My name is Jonathan Manjasseril, I am 15 years old, and attending Okemos high school as a sophmore! I enjoy watching TV shows, playing with my dog, and tennis."
+}
+
+// When I click my interests
+function myFunction1() {
+  document.getElementById("Jonathan1").innerHTML= "I enjoy reading, though I haven't been reading as much recently, I really like to play tennis as well. Debate is really interesting to me, and I would like to pursue this further than I already have. Science or english are definetly the most intriguing subjects in school to me."
+}
+
+// When I click my plans
+function myFunction2() {
+  document.getElementById("Jonathan2").innerHTML= "Although I am only 15, I still find it important to ponder what I want to achieve in my future. MY hobbies/interests are constantly differing as my age increasing, but currently I want to go into law school, this correlating with my interest regarding debate."
+}
+
+
+</script>
+
+<p><font color= blue>See what the time is!</font color></p>
+
+<button onclick="getElementById('demo').innerHTML=Date()">What is the time?</button>
+
+<p id="demo"></p>
+
+ My gmail is <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">jonathanmanjasseril@gmail.com</a>, contact me!</br>
+
+
+
+<button onclick="myFunction()">About me!</button> <br/>
+<button onclick= "myFunction1()">My interests!</button> <br/>
+<button onclick= "myFunction2()">My Plans!</button> <br/>
+
+
+<table>
+	<tr>
+		<td>
+			<p id= "Jonathan"></p>
+		</td>
+		<td>
+			<p id= "Jonathan1"></p>
+		</td>
+                <td>
+                        <p id= "Jonathan2"></p>
+                </td>
+        <tr>
+</table>
+</body>
+</html>
